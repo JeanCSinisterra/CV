@@ -1,16 +1,144 @@
 body {
-  background-color: #FFFFC7;
+  background-color: #FFFFFE;
+  margin: 0;
+  font-weight: 400;
 }
+
 h1 {
   color: #233E8B;
+  font-family: Arial;
+  font-size: 45px;
 }
+
+h2 {
+  color: #233E8B;
+  font-family: Arial;
+  font-size: 30px;
+}
+
 h3 {
   color: #1EAE98;
+  font-family: Arial;
+  font-size: 25px;
 }
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
+
+p {
+  color: #233E8B;
+  font-family: IBM Plex Sans;
+}
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  background: #233E8B;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: none;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+  background-color: #233E8B;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 30px;
+}
+
+nav a{
+  color: #FFFFFE;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contact-me{
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #1EAE98;
+}
+
+.hero-text{
+  background-color: #FFFFFE;
+}
+
+.hero-image {
+  position: relative;
+  width: 400px;
+  height: auto;
+  left: 58%;
+  top: -232px;
+}
+
+.heading-hero {
+  left: 25px;
+  top: 0;
+  padding: 10px 0;
+  position: relative;
+  width: 400px;
+  text-align: left;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  color: #233E8B;
+  letter-spacing: 0.010px;
+  text-transform: capitalize;
+  margin-left: 11%;
+}
+
+.paragraph {
+  left: 180px;
+  top: 300px;
+  position: absolute;
+  overflow: visible;
+  width: 610px;
+  height: 235px;
+  line-height: 55px;
+  margin-top: -10px;
+  text-align: left;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: #233E8B;
+}
+
+.button {
+  border: 0;
+  border-radius: 15px;
+  background-color: #1EAE98;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  position: relative;
+  left: 25%;
+  top: 250px;
+}
+
+.button-text{
+  color: #fffffe;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  position: relative;
 }
