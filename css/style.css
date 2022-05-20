@@ -51,29 +51,23 @@ body {
 
 .heading-projects {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
   color: #233E8B;
   font-weight: bold;
   font-size: 35px;
 }
 
 .project-title {
-  left: 25px;
   top: 0;
   font-weight: bold;
   color: #233E8B;
   font-family: IBM Plex Sans;
   font-size: 24px;
   text-align: center;
-  margin: 0 auto 20px auto;
 }
 
 .has-picture{
   width: 30%;
   height: auto;
-  margin: 10px auto 10px 500px;
 }
 
 .has-title {
@@ -82,7 +76,6 @@ body {
   font-family: IBM Plex Sans;
   font-size: 24px;
   text-align: center;
-  margin: 0 auto 20px auto;
 }
 
 .has-description {
@@ -93,7 +86,6 @@ body {
   width: 30%;
   line-height: 2;
   text-align: left;
-  margin: 0 auto 20px auto;
 }
 
 .has-button {
@@ -104,10 +96,6 @@ body {
   padding: 0 20px;
   font-size: 1.5rem;
   position: relative;
-  top: 0;
-  left: 45%;
-  margin-left: auto;
-  margin-bottom: 50px;
 }
 
 .has-button-text {
@@ -121,7 +109,6 @@ body {
   width: 30%;
   height: auto;
   align-items: center;
-  margin: 10px auto 10px 500px;
 }
 
 .doc-title {
@@ -130,7 +117,6 @@ body {
   font-family: IBM Plex Sans;
   font-size: 24px;
   text-align: center;
-  margin: 0 auto 20px auto;
 }
 
 .doc-description{
@@ -141,7 +127,6 @@ body {
   width: 30%;
   line-height: 2;
   text-align: left;
-  margin: 0 auto 20px auto;
 }
 
 .doc-button {
@@ -152,10 +137,6 @@ body {
   padding: 0 20px;
   font-size: 1.5rem;
   position: relative;
-  top: 0;
-  left: 45%;
-  margin-left: auto;
-  margin-bottom: 50px;
 }
 
 .doc-button-text {
