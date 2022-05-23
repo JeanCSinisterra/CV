@@ -1,73 +1,59 @@
 body {
   background-color: #FFFFFE;
 }
-
-.hero-image {
-  width: 400px;
-  height: auto;
+/* Hero button */
+.cta-btn{
+    color: #FFFFFE;
+    background-color: #1EAE98;
+    border-color: #1EAE98;
+    border: 0;
+    border-radius: 12px;
 }
 
-.heading-hero {
-  width: 40%;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  color: #233E8B;
-}
-
-.hero-paragraph {
-  width: 600px;
-  height: 200px;
-  line-height: 45px;
-  font-family: IBM Plex Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  color: grey;
-}
-
-.cta-button {
-  border: 0;
-  border-radius: 18px;
-  background-color: #1EAE98;
-  line-height: 2.1;
-  padding: 0 20px;
-  font-size: 1.5rem;
-}
-
-.cta-button:hover {
-  background-color: #233E8B;
+.cta-btn:hover {
+    color: #FFFFFE;
+    background-color: #188f7d;
+    border-color: #168272;
 }
 
 .button-text{
   color: #fffffe;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   position: relative;
+  font-weight: bold;
+  font-family: 'Arial';
+}
+
+.button-text:hover {
+  color: #fffffe;
+}
+
+
+/* Hero Section */
+
+h1 {
+  font-family: 'Arial';
   font-weight: bold;
 }
 
+.lead  {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: grey;
+}
+
 .heading-projects {
-  text-align: center;
   color: #233E8B;
   font-weight: bold;
   font-size: 35px;
 }
 
 .project-title {
-  top: 0;
   font-weight: bold;
   color: #233E8B;
   font-family: IBM Plex Sans;
   font-size: 24px;
-  text-align: center;
-}
-
-.has-picture{
-  width: 30%;
-  height: auto;
 }
 
 .has-title {
@@ -75,7 +61,6 @@ body {
   color: #233E8B;
   font-family: IBM Plex Sans;
   font-size: 24px;
-  text-align: center;
 }
 
 .has-description {
@@ -83,9 +68,7 @@ body {
   font-family: IBM Plex Sans;
   font-size: 20px;
   color: grey;
-  width: 30%;
   line-height: 2;
-  text-align: left;
 }
 
 .has-button {
@@ -105,18 +88,11 @@ body {
   font-size: 1.2rem;
 }
 
-.doc-picture{
-  width: 30%;
-  height: auto;
-  align-items: center;
-}
-
 .doc-title {
   font-weight: bold;
   color: #233E8B;
   font-family: IBM Plex Sans;
   font-size: 24px;
-  text-align: center;
 }
 
 .doc-description{
@@ -124,7 +100,6 @@ body {
   font-family: IBM Plex Sans;
   font-size: 20px;
   color: grey;
-  width: 30%;
   line-height: 2;
   text-align: left;
 }
@@ -147,25 +122,17 @@ body {
 }
 
 .testimonials{
-    text-align: center;
-    margin: auto 0 30px 0;
     color: #233E8B;
     font-weight: bold;
-    font-size: 35px;
     line-height: normal;
 }
 
 .test-picture {
-  width: 10%;
-  height: auto;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-left: 45%;
 }
 
 .testimonial-paragraph{
-  width: 40%;
   color: grey;
   font-size: 24px;
   font-weight: normal;
@@ -183,8 +150,6 @@ body {
   padding: 0 20px;
   font-size: 1.5rem;
   position: relative;
-  margin-left: 45%;
-  margin-bottom: 50px;
 }
 
 .cta-testimonial:hover {
@@ -202,18 +167,7 @@ body {
   font-family: IBM Plex Mono;
   float: left;
   width: 40%;
-  margin-left: 175px;
-  margin-top: 50px;
   line-height: 35px;
-}
-
-.footer-logo {
-  width: 20%;
-  height: auto;
-  position: relative;
-  float: right;
-  margin-right: 200px;
-  margin-top: 50px;
 }
 
 .footer-links li {
@@ -221,7 +175,6 @@ body {
   font-family: IBM Plex Mono;
   font-size: 16px;
   display: inline-block;
-  margin: 50px 0 0 55px;
 }
 
 .footer-links a {
