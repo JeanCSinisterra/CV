@@ -1,22 +1,23 @@
 body {
   background-color: #FFFFFE;
 }
+
 /* Hero button */
-.cta-btn{
-    color: #FFFFFE;
-    background-color: #1EAE98;
-    border-color: #1EAE98;
-    border: 0;
-    border-radius: 12px;
+.cta-btn {
+  color: #FFFFFE;
+  background-color: #1EAE98;
+  border-color: #1EAE98;
+  border: 0;
+  border-radius: 12px;
 }
 
 .cta-btn:hover {
-    color: #FFFFFE;
-    background-color: #188f7d;
-    border-color: #168272;
+  color: #FFFFFE;
+  background-color: #188f7d;
+  border-color: #168272;
 }
 
-.button-text{
+.button-text {
   color: #fffffe;
   text-align: center;
   text-decoration: none;
@@ -30,19 +31,28 @@ body {
   color: #fffffe;
 }
 
-
 /* Hero Section */
-
 h1 {
   font-family: 'Arial';
   font-weight: bold;
 }
 
-.lead  {
+h2 {
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+.lead {
   font-family: 'IBM Plex Sans', sans-serif;
   color: grey;
 }
 
+/* Projects Section */
 .heading-projects {
   color: #233E8B;
   font-weight: bold;
@@ -95,7 +105,7 @@ h1 {
   font-size: 24px;
 }
 
-.doc-description{
+.doc-description {
   font-weight: normal;
   font-family: IBM Plex Sans;
   font-size: 20px;
@@ -121,62 +131,58 @@ h1 {
   font-size: 1.2rem;
 }
 
-.testimonials{
-    color: #233E8B;
-    font-weight: bold;
-    line-height: normal;
+.testimonials {
+  color: #233E8B;
+  font-weight: bold;
+  line-height: normal;
+  padding: 3% 0;
 }
 
 .test-picture {
-  display: flex;
-  justify-content: center;
+  padding: 3% 0;
 }
 
-.testimonial-paragraph{
+.test-p {
   color: grey;
   font-size: 24px;
   font-weight: normal;
   line-height: 1.5em;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 3% 0;
 }
 
-.cta-testimonial {
+.test-btn {
   border: 0;
   border-radius: 18px;
   background-color: #1EAE98;
   line-height: 2.1;
   padding: 0 20px;
   font-size: 1.5rem;
-  position: relative;
+  justify-content: center;
 }
 
 .cta-testimonial:hover {
   background-color: #233E8B;
 }
 
+/* Footer */
 .portfolio-footer {
-  background: linear-gradient(25deg, rgba(35,62,139,1) 40%, rgba(30,174,152,1) 75%);
+  background: linear-gradient(25deg, rgba(35, 62, 139, 1) 40%, rgba(30, 174, 152, 1) 75%);
   height: 225px;
 }
 
-.footer-message {
+.footer-p {
+  font-family: IBM Plex Mono;
+  color: #fffffe;
+}
+
+.footer-item {
+  text-decoration: none;
+  font-family: IBM Plex Mono;
   color: #FFFFFE;
-  font-size: 18px;
-  font-family: IBM Plex Mono;
-  float: left;
-  width: 40%;
-  line-height: 35px;
+  padding: 1% 0;
 }
 
-.footer-links li {
-  text-decoration: underline;
-  font-family: IBM Plex Mono;
-  font-size: 16px;
-  display: inline-block;
-}
-
-.footer-links a {
+.p-3 {
   color: #FFFFFE;
 }
