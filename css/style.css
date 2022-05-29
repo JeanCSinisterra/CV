@@ -185,6 +185,12 @@ h3 {
   color: #FFFFFE;
 }
 
+/* About Me Page CSS */
+.about-me-pic {
+  border-radius: 100%;
+}
+
+
 /* Contact Page CSS */
 
 .contact-h1 {
