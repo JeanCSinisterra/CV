@@ -131,17 +131,22 @@ h3 {
 }
 
 /* Testimonial Section  */
-
 .carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
-    filter: invert(80%);
+.carousel-control-prev
+
+/*, .carousel-indicators */
+  {
+  filter: invert(80%);
+}
+
+.carousel-item {
+  padding: 1% 10%;
 }
 
 .testimonials {
   color: #233E8B;
   font-weight: bold;
   line-height: normal;
-  padding: 2% 0;
 }
 
 .test-picture {
@@ -154,7 +159,6 @@ h3 {
   font-weight: normal;
   line-height: 1.2em;
   justify-content: center;
-  padding: 2% 0;
 }
 
 .test-btn {
@@ -197,9 +201,7 @@ h3 {
   border-radius: 100%;
 }
 
-
 /* Contact Page CSS */
-
 .contact-h1 {
   padding: 2% 0;
 }
