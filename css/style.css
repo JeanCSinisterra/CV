@@ -130,6 +130,13 @@ h3 {
   font-size: 1.2rem;
 }
 
+/* Testimonial Section  */
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(80%);
+}
+
 .testimonials {
   color: #233E8B;
   font-weight: bold;
