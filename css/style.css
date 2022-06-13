@@ -2,6 +2,9 @@ body {
   background-color: #FFFFFE;
 }
 
+/* NavBar List Section */
+
+
 /* Click To Action button */
 .cta-btn {
   color: #FFFFFE;
@@ -32,6 +35,17 @@ body {
 }
 
 /* Hero Section */
+
+@media (max-width: 990px) {
+  #hero {
+    text-align: center;
+  }
+
+  .hero-img {
+    position: static;
+  }
+}
+
 h1 {
   font-family: 'Arial';
   font-weight: bold;
