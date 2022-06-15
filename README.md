@@ -1,7 +1,7 @@
-Hi 👋 My name is Jean Carlo Sinisterra
+Hellos Folks! 👋 My name is Jean Carlo Sinisterra
 ======================================
 
-Front-End Developer aspiring to be Full Stack Developer
+Front-End Developer aspiring to be a Full Stack
 -------------------
 
 Initially my journey in the tech field started at the end of 2019 when I took HTML && CSS lessons at FreeCode Academy, however it wasn't until 2021 that I made the decision to delve deeper into this field. I started studying Python but it didn't seem that interesting at first. I did a bit more research on websites and immediately started taking HTML and CSS classes & currently I´m studying Javascript.
