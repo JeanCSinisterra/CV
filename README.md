@@ -1,4 +1,4 @@
-Hellos Folks! 👋 My name is Jean Carlo Sinisterra
+Hello Folks! 👋 My name is Jean Carlo Sinisterra
 ======================================
 
 Front-End Developer aspiring to be a Full Stack
