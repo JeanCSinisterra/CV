@@ -30,7 +30,8 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
                                 <a href="https://www.adobe.com/uk/products/xd.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xd-colored-dark.svg" width="36" height="36" alt="XD" /></a>
 </p>
 <br>
-### Socials
+
+Socials
 <br>
 <p align="left">
 <br>
