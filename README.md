@@ -28,7 +28,8 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
                                 <a href="https://www.adobe.com/uk/products/xd.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xd-colored-dark.svg" width="36" height="36" alt="XD" /></a>
 </p>
 <br>
-###Socials
+Socials
+<br>
 <p align="left">
 <a href="https://discord.com/users/JCSS1994" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a>
 <a href="https://www.facebook.com/sinisterrajeanc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a>
@@ -37,6 +38,8 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
 <a href="https://www.twitter.com/JeanCSinisterra" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
 </p>
 <br>
-### Badges<b>My GitHub Stats</b>
-<a href="http://www.github.com/JeanCSinisterra"><img
-src="https://github-readme-streak-stats.herokuapp.com/?user=JeanCSinisterra&stroke=ffffff&background=000000&ring=10b981&fire=10b981&currStreakNum=ffffff&currStreakLabel=10b981&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+Badges
+<br>
+<b>My GitHub Stats</b>
+<a href="http://www.github.com/JeanCSinisterra">
+ <img src="https://github-readme-streak-stats.herokuapp.com/?user=JeanCSinisterra&stroke=ffffff&background=000000&ring=10b981&fire=10b981&currStreakNum=ffffff&currStreakLabel=10b981&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /> </a>
