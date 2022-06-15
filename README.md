@@ -31,7 +31,7 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
 </p>
 <br>
 
-Socials
+### Socials
 <br>
 <p align="left">
 <br>
