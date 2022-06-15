@@ -32,9 +32,9 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
 <br>
 
 ### Socials
-<br>
+
 <p align="left">
-<br>
+
 <a href="https://discord.com/users/JCSS1994" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a>
 <a href="https://www.facebook.com/sinisterrajeanc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a>
  <a href="https://www.github.com/JeanCSinisterra" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a>
@@ -42,8 +42,8 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
 <a href="https://www.twitter.com/JeanCSinisterra" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
 </p>
 
-<br>
+
 <b>My GitHub Stats</b>
-<br>
+
 <a href="http://www.github.com/JeanCSinisterra">
  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JeanCSinisterra&stroke=ffffff&background=000000&ring=10b981&fire=10b981&currStreakNum=ffffff&currStreakLabel=10b981&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /> </a>
