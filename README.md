@@ -11,7 +11,7 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
 *   ✉️  You can contact me at [jeansinisterra@gmail.com](mailto:jeansinisterra@gmail.com)
 *   🧠  I'm learning the MERN Tech Stack
 *   🤝  I'm open to collaborating on Open Source projects
-*   ⚡  I love to play the Guitar & drive Go Karts
+*   ⚡  I love to play the Electric Guitar & drive Go Karts
 
 ### Skills
 <p align="left">
@@ -27,9 +27,8 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
 <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored-dark.svg" width="36" height="36" alt="Express" /></a>
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
 <a href="https://www.adobe.com/uk/products/aftereffects.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aftereffects-colored-dark.svg" width="36" height="36" alt="After Effects" /></a>
-                                <a href="https://www.adobe.com/uk/products/xd.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xd-colored-dark.svg" width="36" height="36" alt="XD" /></a>
+<a href="https://www.adobe.com/uk/products/xd.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xd-colored-dark.svg" width="36" height="36" alt="XD" /></a>
 </p>
-<br>
 
 ### Socials
 
