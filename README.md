@@ -13,7 +13,7 @@ Initially my journey in the tech field started at the end of 2019 when I took HT
 *   🤝  I'm open to collaborating on Open Source projects
 *   ⚡  I love to play the Electric Guitar & drive Go Karts
 
-### Skills
+### Technologies that I'm involved
 <p align="left">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
