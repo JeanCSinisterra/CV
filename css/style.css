@@ -19,7 +19,6 @@ body {
   font-size: 18px; /* Increase font size */
 }
 
-
 /* Click To Action button */
 .cta-btn {
   color: #FFFFFE;
@@ -209,26 +208,48 @@ h3 {
   height: 225px;
 }
 
+.fa-brands {
+  font-size: 2.5rem;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.fa-github {
+  color: #FFFFFE;
+}
+
+.fa-github:hover {
+  color: #171515;
+  background-color: #FFFFFE;
+}
+
+.fa-twitter {
+  color: #FFFFFE;
+}
+
+.fa-twitter:hover{
+  color: #00aced;
+  background-color: #FFFFFE;
+}
+
+.fa-linkedin {
+  color: #FFFFFE;
+}
+
+.fa-linkedin:hover {
+  color:#007bb6;
+  background-color: #FFFFFE;
+}
+
 .footer-p {
   font-family: "IBM Plex Mono", monospace;
   color: #fffffe;
-}
-
-.footer-item {
-  text-decoration: none;
-  font-family: "IBM Plex Mono", monospace;
-  color: #FFFFFE;
-  padding: 1% 0;
 }
 
 .p-3 {
   color: #FFFFFE;
 }
 
-/* About Me Page CSS */
-.about-me-pic {
-  border-radius: 100%;
-}
 
 /* Contact Page CSS */
 .contact-h1 {
