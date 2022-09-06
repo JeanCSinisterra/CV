@@ -20,7 +20,7 @@ function topFunction() {
 };
 
 // In the Contact form, this script is to send Contact Enquiry directly to my Gmail Account. 
-document.getElementById("button").addEventListener("click", (e) => {
+document.getElementByClassName("cta-btn").addEventListener("click", (e) => {
   e.preventDefault();
   const contactForm = document.getElementById("form");
   const name = document.getElementById("name");
