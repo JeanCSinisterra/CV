@@ -7,7 +7,7 @@
   <title>Develop With Jean </title>
 
   <!-- CSS Script  -->
-  <link rel="stylesheet" href="css/style.css" type:"text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 
   <!-- Favicon Script -->
   <link rel="icon" href="favicon.ico">
@@ -56,41 +56,44 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i>
 </button>
 
-<!-- Contact Details  -->
-<section id="Contact Me">
-    
-<main class="form-signin w-100 m-auto">
-  <form action="/" class="form-signin" method="POST">
-    <img class="mb-1 align-content-center" src="images/logo.PNG" alt="" width="100%" height="auto">
-    <h1 class="h3 mb-3 fw-normal">Sign Me in</h1>
+    <!-- Contact Details  -->
+    <section id="Contact Me">
 
-    <div class="form-floating">
-      <input type="text" class="form-control" name="firstName"  id="floatingPassword" placeholder="Name" name="Name" required>
-      <label for="floatingPassword">First Name</label>
-    </div>
-    <div class="form-floating">
-      <input type="text" class="form-control" name="lastName"  id="floatingPassword" placeholder="Name" name="Name" required>
-      <label for="floatingPassword">Last Name</label>
-    </div>
-    <div class="form-floating">
-      <input type="email" class="form-control" name="emailAddress" id="floatingInput" placeholder="name@example.com" required>
-      <label for="floatingInput">Email address</label>
-    </div>
-    <div class="form-floating">
-      <input type="text" class="form-control" name="contactMessage" id="floatingInput" placeholder="name@example.com" required>
-      <label for="floatingInput">How can I help you?</label>
-    </div>
+      <div class="container text-lg-start contact-h1">
+        <h1 class="display-5 fw-bold lg-1" style=color:rgba(35,62,139,1)>Contact Details</h1>
+      </div>
 
-    <br>
-    <!-- Submit button -->
-    <div class="col-md-12 text-center">
-      <button id="button" type="onsubmit" class="cta-btn btn-lg px-4 me-md-2 test-btn"><a href="" class="button-text">Let's Talk !</a>
-      </button>
-    </div>
-  </form>
-</div>
+      <div class="container text-lg-start">
+        <p class="lead fs-5 fw-normal text-lg-start">I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, You can contact me at <a
+            href="mailto:jeansinisterra@gmail.com">jeansinisterra@gmail.com</a></p>
+        <br>
 
-</section>
+        <form id="form" action="https://formsubmit.co/jeansinisterra@gmail.com" method="POST">
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="name" name="name" class="form-control" placeholder="Name" required >
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required >
+          </div>
+
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea id="message-form" class="form-control" rows="4" placeholder="How can I help you?"></textarea>
+          </div>
+
+          <!-- Submit button -->
+          <div class="col-md-12 text-center">
+            <button id="button" type="onsubmit" class="cta-btn btn-lg px-4 me-md-2 test-btn"><a href="" class="button-text">Let's Talk !</a>
+            </button>
+          </div>
+        </form>
+      </div>
+
+
+    </section>
 
     <br>
 
