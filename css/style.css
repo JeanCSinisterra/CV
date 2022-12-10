@@ -1,0 +1,257 @@
+body {
+  background-color: #FFFFFE;
+}
+
+/* CSS to style the button who allows you to go to the top of the page */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #233E8B; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+/* Click To Action button */
+.cta-btn {
+  color: #FFFFFE;
+  background-color: #1EAE98;
+  border-color: #1EAE98;
+  border: 0;
+  border-radius: 12px;
+}
+
+.cta-btn:hover {
+  color: #FFFFFE;
+  background-color: #188f7d;
+  border-color: #168272;
+}
+
+.button-text {
+  color: #fffffe;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  position: relative;
+  font-weight: bold;
+  font-family: 'Arial';
+}
+
+.button-text:hover {
+  color: #fffffe;
+}
+
+/* Hero Section */
+
+@media (max-width: 990px) {
+  #hero {
+    text-align: center;
+  }
+
+  .hero-img {
+    position: static;
+  }
+}
+
+h1 {
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+.lead {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: grey;
+}
+
+/* Projects Section */
+.heading-projects {
+  color: #233E8B;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.project-title {
+  font-weight: bold;
+  color: #233E8B;
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+}
+
+.has-title {
+  font-weight: bold;
+  color: #233E8B;
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+}
+
+.has-description {
+  font-weight: normal;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  color: grey;
+  line-height: 1.2;
+}
+
+.has-button {
+  border: 0;
+  border-radius: 18px;
+  background-color: #1EAE98;
+  line-height: 2.1;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.has-button-text {
+  color: #fffffe;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.doc-title {
+  font-weight: bold;
+  color: #233E8B;
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+}
+
+.doc-description {
+  font-weight: normal;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  color: grey;
+  line-height: 1.2;
+}
+
+.doc-button {
+  border: 0;
+  border-radius: 18px;
+  background-color: #1EAE98;
+  line-height: 2.1;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.doc-button-text {
+  color: #fffffe;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Testimonial Section  */
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+  {
+  filter: invert(80%);
+}
+
+.carousel-item {
+  padding: 1% 10%;
+}
+
+.testimonials {
+  color: #233E8B;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.test-picture {
+  padding: 3% 0;
+}
+
+.test-p {
+  color: grey;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.2em;
+  justify-content: center;
+}
+
+.test-btn {
+  border: 0;
+  border-radius: 18px;
+  background-color: #1EAE98;
+  line-height: 2.1;
+  padding: 0 20px;
+  font-size: 1.5rem;
+}
+
+.cta-testimonial:hover {
+  background-color: #233E8B;
+}
+
+/* Footer */
+.portfolio-footer {
+  background: linear-gradient(25deg, rgba(35, 62, 139, 1) 40%, rgba(30, 174, 152, 1) 75%);
+  height: 225px;
+}
+
+.fa-brands {
+  font-size: 2.5rem;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.fa-github {
+  color: #FFFFFE;
+}
+
+.fa-github:hover {
+  color: #171515;
+  background-color: #FFFFFE;
+}
+
+.fa-twitter {
+  color: #FFFFFE;
+}
+
+.fa-twitter:hover{
+  color: #00aced;
+  background-color: #FFFFFE;
+}
+
+.fa-linkedin {
+  color: #FFFFFE;
+}
+
+.fa-linkedin:hover {
+  color:#007bb6;
+  background-color: #FFFFFE;
+}
+
+.footer-p {
+  font-family: "IBM Plex Mono", monospace;
+  color: #fffffe;
+}
+
+.p-3 {
+  color: #FFFFFE;
+}
+
+
+/* Contact Page CSS */
+.contact-h1 {
+  padding: 2% 0;
+}

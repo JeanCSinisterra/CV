@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web Developer in Panama. Feel free to contact me at jeansinisterra@gmail.com if you would like to discuss a project">
+  <title>Develop With Jean</title>
+
+  <!-- CSS Script  -->
+  <link rel="stylesheet" href="css/style.css" type:"text/css">
+
+  <!-- Favicon Script -->
+  <link rel="icon" src="images/favicon.ico">
+
+  <!-- Fontawesome Script -->
+  <script src="https://kit.fontawesome.com/ccb3b053ac.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&family=Roboto&display=swap">
+  <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=IBM%20Plex%20Mono:wght@100;400;500;700%7CIBM%20Plex%20Sans:wght@300;400;500;700%7CRoboto:wght@300;400">
+
+  <!-- Bootstrap Script -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- NavBar section   -->
+
+  <section id="header">
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background:linear-gradient(25deg, rgba(35,62,139,1) 40%, rgba(30,174,152,1) 75%)">
+      <div class="container">
+        <a class="navbar-brand fs-3" href="index.html">
+          <img src="images/logo-image.png" alt="Programador en Panama" style="width:250px;" class="d-inline-block align-text-top">
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav navbar-list ms-auto">
+            <li class="nav-item fs-4 fw-bold">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item fs-4 fw-bold">
+              <a class="nav-link" href="about-me.html">About</a>
+            </li>
+            <li class="nav-item fs-4 fw-bold">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Script to create "scroll to top" button that becomes visible when users starts to scroll the page-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i>
+</button>
+
+    <!-- Hero Section -->
+    <section id="hero">
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-1 py-1">
+          <div class="col-sm-8 col-lg-6 align-items">
+            <img src="images/profile-photo.png" class="rounded mx-auto d-block img-fluid hero-img" alt="Web Developer in Panama" width="400" height=auto loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-3 fw-bold lg-1" style=color:rgba(35,62,139,1)>Jean Carlo Sinisterra</h1>
+            <p class="lead fs-4 fw-normal text-lg-start">Web Developer interested in creating meaningful & seamless digital experience to help you dominate your market.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="cta-btn btn-lg px-4 me-md-2"><a href="contact.html" class="button-text">Let's Talk !</a>
+              </button>
+            </div>
+          </div>
+
+    </section>
+
+    <!-- Projects Overview Section -->
+
+    <section id="projects">
+
+      <div class="container text-center">
+        <h2 class="heading-projects">Projects</h2>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-4">
+        <div class="row flex-lg-row align-items-top g-3 py-3 justify-content-evenly">
+          <div class="col-lg-4">
+            <h3 class="text-center project-title">Website | Design | Business</h3>
+            <img src="images/project-has.png" class="img-fluid" alt="Honda Aire y Servicio">
+          </div>
+          <div class="col-lg-4">
+            <h3 class="has-title">Honda Aire y Servicio</h3>
+            <p class="lead fs-4 fw-normal text-lg-start has-description">Car workshop’s website to address Honda car owners
+              to appointments to repair their cars through an assistant with WhatsApp Business.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="cta-btn btn-lg px-4 me-md-2"><a href="https://www.hondaaireyservicio.com/index.html" target="_blank" class="button-text">Visit website</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-4">
+        <div class="row flex-lg-row align-items-top g-3 py-3 justify-content-evenly">
+          <div class="col-lg-4">
+            <h3 class="text-center project-title">Website | DOM | JS Skills</h3>
+            <img src="images/project-drum-kit.png" class="img-fluid" alt="drum kit">
+          </div>
+          <div class="col-lg-4">
+            <h3 class="doc-title">Drum Kit Website</h3>
+            <p class="lead fs-4 fw-normal text-lg-start doc-description">This project is based on the different sounds produced when instruments of Drum Kit are hit. 
+              Drum kit is a beginner friendly project that allows you to play drums on the browser.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="cta-btn btn-lg px-4 me-md-2"><a href="https://jeancsinisterra.github.io/javascript-drum-kit/" target="_blank" class="button-text">Visit website</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <!-- Testimonial Section  -->
+
+      <div class="container align-items-center">
+        <h2 class="text-center testimonials">Testimonials</h2>
+        <p class="lead fs-5 fw-light text-center">
+          People I've worked with have said some nice things...
+        </p>
+      </div>
+
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container align-items-center">
+              <img src="images/testimonial.png" class="img-fluid rounded mx-auto d-block mb-0 test-picture" width="30%" alt="Testimonials">
+              <p class="lead text-center fs-4 fw-normal align-middle test-p">Since having our new website built by Jean,
+                we have seen a 80% increase in the number of online contact forms being filled out and returned to us.
+                Thanks to Jean for all of your hard work and support.
+              </p>
+              <p class="lead text-center fs-5 fw-bold align-middle">
+                Aaron De León
+              </p>
+              <p class="lead text-center fs-5 fw-normal align-middle">
+                Marketing Expert
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container align-items-center">
+              <img src="images/second-testimonial.png" class="img-fluid rounded mx-auto d-block test-picture" width="30%" alt="Testimonials">
+              <p class="lead text-center fs-4 fw-normal align-middle test-p">
+                Definitely working with Jean was a pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.
+              </p>
+              <p class="lead text-center fs-5 fw-bold align-middle">
+                Jamileth Vallarino
+              </p>
+              <p class="lead text-center fs-5 fw-normal align-middle">
+                Lawyer
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+        </div>
+      </div>
+
+      <br>
+
+      <!-- Call To Action Button Before Footer -->
+
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <button type="button" class="cta-btn btn-lg px-4 me-md-2 test-btn"><a href="contact.html" class="button-text">Let's Talk !</a>
+          </button>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- Footer -->
+
+      <footer style="background:linear-gradient(25deg, rgba(35,62,139,1) 40%, rgba(30,174,152,1) 75%)">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4">
+              <p class="fs-6 footer-p">
+                If you are thinking about hiring me or
+                would like to discuss a project, get in touch with me at jeansinisterra@gmail.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 d-inline-block">
+                <a href="https://github.com/JeanCSinisterra" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/JeanCSinisterra" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/jean-carlo-sinisterra/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <img src="images/logo-image.png" class="img-fluid" alt="Programador en Panama" style="width:250px">
+            </div>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022
+          <a class="text-light" href="https://jeancsinisterra.github.io/Website-Portfolio/">Jean C. Sinisterra</a>
+        </div>
+
+      </footer>
+      <!-- End of container -->
+
+      <!-- Javascript Script -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+      
+</body>
+</html>
