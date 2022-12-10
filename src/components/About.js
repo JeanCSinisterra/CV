@@ -7,10 +7,11 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Jean Carlo.
-            <br className="hidden lg:inline-block" />A Tech enthusiast for building new WebApps.
+            <br className="hidden lg:inline-block" />A tech enthusiast based in Panama who enjoys creating web applications.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Looking for a Web Developer interested in creating meaningful & seamless digital experience to help you dominate your market? You can count with me! 
+            Looking for a Web Developer? I'm interested in creating meaningful & seamless digital experience to help you dominate your market. If you are a business seeking a web presence 
+            or an employer looking to hire, You can count with me! 
           </p>
           <div className="flex justify-center">
             <a
